@@ -57,7 +57,7 @@ Open *src/package.json*, add script:
 ```
 Default, storybook run on dynamic port, for using fixed port, we need add param `p <port>`, example: `start-storybook -p 9000`.
 
-### 7. Well done! Run storybook on hack speed
+### 7. Run storybook on hack speed
 ```bash
 yarn sb
 ```

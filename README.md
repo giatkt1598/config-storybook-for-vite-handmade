@@ -7,7 +7,11 @@ npm init vite
 ```
 ### 2. Restore package
 `npm install` or `yarn`
-### 3. Install storybook and accomplices.
+### 3. Install storybook to project
+Requirement:
+
+* **Vite 2.4** or newer
+
 Now, we will install require packages of storybook, which is failed on `npx sb@next init...`
 
 They includes:
@@ -60,3 +64,9 @@ yarn sb
 ![run-sb](docs/screenshots/run-sb.png)
 
 ![sb](docs/screenshots/sb.png)
+
+## References
+
+https://github.com/eirslett/storybook-builder-vite
+
+https://storybook.js.org/docs/react/get-started/install

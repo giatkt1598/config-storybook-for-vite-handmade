@@ -53,6 +53,7 @@ Open *.storybook/main.js*, add config:
 ```javascript
 // .storybook/main.js
 module.exports = {
+// ...
   core: {
     builder: 'storybook-builder-vite',
   },
